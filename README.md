@@ -41,6 +41,11 @@ npm link
 
 ```
 
+执行`myblog preview example`启动服务，在浏览器端，可打开如下几个页面：
+1. http://127.0.0.1:3000/meta/metadata 渲染元数据
+2. http://127.0.0.1:3000/layout/metadata 渲染layout模板库里的页面
+3. http://127.0.0.1:3000 展示所有的日期页面，皆为example/_posts/date目录下的md文件
+
 
 
 
