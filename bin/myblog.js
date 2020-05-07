@@ -27,8 +27,6 @@ program
     .command('build [dir]')
     .description('生成整站静态HTML')
     .option('-o, --output <dir>', '生成的静态HTML存放目录')
-    .action((dir, options) => {
-        console.log('create s%, output s%', dir, options.output);
-    });
+    .action(require('../lib/build'));
 
 program.parse(process.argv);

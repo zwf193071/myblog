@@ -41,10 +41,12 @@ npm link
 
 ```
 
-执行`myblog preview example`启动服务，在浏览器端，可打开如下几个页面：
-1. http://127.0.0.1:3000/meta/metadata 渲染元数据
-2. http://127.0.0.1:3000/layout/metadata 渲染layout模板库里的页面
-3. http://127.0.0.1:3000 展示所有的日期页面，皆为example/_posts/date目录下的md文件
+open模块用户调用系统浏览器打开指定网址，在preview命令执行后，将自动在浏览器中打开博客首页
+
+执行`myblog preview example`启动服务，在浏览器端，打开http://127.0.0.1:3000，可看到博客主页
+
+执行`node lib/readData`启动服务，在浏览器端，打开http://127.0.0.1:3001，可看到对随机菜单的排序处理及各个菜名对应的单位统计
+
 
 
 
