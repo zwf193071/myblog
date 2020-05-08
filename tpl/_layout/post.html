@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学习webassembly</title>
+    <title>{{post.title|escape}}</title>
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-    <h1>学习webassembly</h1>
-    <p>日期: 2020-05-05</p>
+    <h1>{{post.title|escape}}</h1>
+    <p>日期: {{post.date|escape}}</p>
     <hr>
-    <div class="post-content"><p>开始学习webassembly</p>
-</div>
+    <div class="post-content">{{post.content}}</div>
 </body>
 </html>

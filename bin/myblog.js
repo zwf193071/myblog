@@ -14,9 +14,7 @@ program
 program
     .command('create [dir]')
     .description('创建一个空的博客')
-    .action((dir) => {
-        console.log('create %s', dir);
-    });
+    .action(require('../lib/create'));
 
 program
     .command('preview [dir]')
