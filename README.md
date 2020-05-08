@@ -43,9 +43,11 @@ npm link
 
 open模块用户调用系统浏览器打开指定网址，在preview命令执行后，将自动在浏览器中打开博客首页
 
-执行`myblog preview example`启动服务，在浏览器端，打开http://127.0.0.1:3000，可看到博客主页
+1. 执行`myblog preview example`启动服务，在浏览器端，打开http://127.0.0.1:3000，可看到博客主页
 
-执行`node lib/readData`启动服务，在浏览器端，打开http://127.0.0.1:3001，可看到对随机菜单的排序处理及各个菜名对应的单位统计
+2. 执行`node lib/readData`启动服务，在浏览器端，打开http://127.0.0.1:3001，可看到对随机菜单的排序处理及各个菜名对应的单位统计
+
+3. 执行`myblog create new_blog`自动在根目录生成new_blog文件夹，再执行`myblog preview new_blog`可看到刚才新生成的博客页面
 
 
 
